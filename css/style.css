@@ -92,5 +92,87 @@ body {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+
+    /* --- Estilos para Sección de Comentarios --- */
+.form_comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.form_comentarios input, 
+.form_comentarios textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn_enviar {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn_enviar:hover {
+    background-color: #1c5980;
+}
+
+/* Lista de Notas */
+.nota_item {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 5px solid #2980b9;
+}
+
+.nota_item h4 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.nota_item h4 span {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    font-weight: normal;
+}
+
+.nota_item h5 {
+    margin: 0 0 10px 0;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.acciones_nota {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.acciones_nota a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.btn_editar {
+    background-color: #f39c12;
+}
+.btn_editar:hover { background-color: #d68910; }
+
+.btn_eliminar {
+    background-color: #e74c3c;
+}
+.btn_eliminar:hover { background-color: #c0392b; }
 }
 
